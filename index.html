@@ -1,27 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
+ <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:300,400,500,700" rel="stylesheet">
  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+ <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <navbar id="navbar">
-    <a href="#about">About</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
+    <ul>
+      <li><a class="orange-text" href="#about">About</a></li>
+      <li><a class="orange-text" href="#projects">Projects</a></li>
+      <li><a class="orange-text" href="#contact">Contact</a></li>
+    </ul>
   </navbar>
   <div id="welcome-section">
     <h1>Hi, I'm Brittany</h1>
+    <p class="orange-text">a web developer</p>
   </div>
   <div id="about">
   </div>
   <div id="projects">
-    <h2 class="project-title">Project One</h2>
-    <a href="https://codepen.io/wirtzb3/pen/gQaKXX">Tribute Page</a>
+      <h2 id="project-section-title">These are some of my rudimentary projects..</h2>
+      <div class="project">
+        <img class="project-pic" src="img/tribute-page.png">
+        <a class="project-title orange-text" target="_blank" href="https://codepen.io/wirtzb3/pen/gQaKXX">Tribute Page</a>
+      </div>
+      <div class="project">
+        <img class="project-pic" src="img/survey-form-page.png">
+        <a class="project-title orange-text" target="_blank" href="https://codepen.io/wirtzb3/pen/VVaWpW">Survey Form</a>
+      </div>
+      <div class="project">
+        <img class="project-pic" src="img/product-landing-page.png">
+        <a class="project-title orange-text" target="_blank" href="https://codepen.io/wirtzb3/pen/OaRQML">Product Landing Page</a>
+      </div>
+       <div class="project">
+        <img class="project-pic" src="img/technical-documentation-page.png">
+        <a class="project-title orange-text" target="_blank" href="https://codepen.io/wirtzb3/pen/PxGajw">Technical Documentation Page</a>
+      </div>
   </div>
   <div id="contact">
-  </div>
-  <div>
-    <a id="profile-link" target="_blank" href="https://codepen.io/wirtzb3/">FCC Profile</a>
+     <a id="profile-link" target="_blank" href="https://codepen.io/wirtzb3/">Codepen</a>
+     <a id="second-profile-link" target="_blank" href="https://github.com/wirtzb3">GitHub</a>
   </div>
 </body>
 </html>

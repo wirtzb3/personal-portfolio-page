@@ -1,15 +1,91 @@
-#navbar {
-  position: fixed;
-  top: 0;
-  left: 0;
+body {
+	text-align: center;
+	width: 100%;
+	font-family: 'Alegreya Sans', sans-serif;
+	color: #00A0EE;
+}
+
+ul {
+	position: fixed;
+	top: 0;
+	left: 0;
+  	height: 50px;
+  	width: 100%;
+  	background-color: #C8E1EE;
+  	text-align: right;
+  	margin-top: -20px;
+  	padding-top: 40px;
+}
+
+.orange-text {
+	color: #EA5208;
+}
+
+li {
+	margin: 55px;
+	display: inline;
+}
+
+a {
+	text-decoration: none;
+	color: #00A0EE;
 }
 
 #welcome-section {
-  height: 100vh;
+  top: 0;
+  margin-left: -10px;
+  min-height: 55vh;
+  padding-top: 45vh;
+  background-color: #C8E1EE;
+  color: #00A0EE;
+  line-height: 15px;
 }
 
-@media (max-width: 500px) {
-  body {
-    margin: auto;
+.project {
+	border: 1px black solid;
+	width: 40%;
+	display: inline-block;
+	margin: 20px;
+	padding: 5px;
+}
+
+.project-pic {
+	width: 90%;
+	margin-bottom: 5px;
+}
+
+#contact {
+	background-color: #EED5C8;
+	padding-top: 10vh;
+	height: 10vh;
+	width: 100%;
+}
+
+#profile-link, #second-profile-link {
+	font-weight: 500;
+	padding: 30px;
+}
+
+@media (max-width: 650px) {
+  ul {
+  	text-align: center;
   }
+  li {
+  	margin: 20px;
+  }
+  .project {
+  	width: 80%;
+  }
+  .project-pic {
+  	width: 95%;
+  }
+}
+
+@media (min-width: 1050px) {
+	.project {
+		width: 45%;
+	}
+	.project-pic {
+		width: 100%;
+	}
 }
